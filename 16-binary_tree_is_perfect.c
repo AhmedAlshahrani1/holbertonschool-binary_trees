@@ -18,4 +18,5 @@ if (binary_tree_is_full(tree) && binary_tree_height(tree->left) == binary_tree_h
 {
 return (tree_is_perfect(tree->left) && tree_is_perfect(tree->right));
 }
+return (0);
 }
