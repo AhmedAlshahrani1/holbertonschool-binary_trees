@@ -13,7 +13,7 @@ if (node == NULL || node->parent == NULL)
 	return (NULL);
 if (node->parent->left == node)
 {
-	return (parent->right);
+	return (node->parent->right);
 }
-	return (parent->left);
+	return (node->parent->left);
 }
