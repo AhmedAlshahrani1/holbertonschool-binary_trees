@@ -6,7 +6,7 @@
  *
  * Return: Height of the tree if perfect, -1 if not perfect
  */
-int binary_tree_is_perfect(const binary_tree_t *tree);
+int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 if (tree == NULL)
 	return (0);
