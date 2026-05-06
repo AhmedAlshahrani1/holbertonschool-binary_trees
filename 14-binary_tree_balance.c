@@ -8,8 +8,8 @@
  */
 int binary_tree_balance(const binary_tree_t *tree)
 {
-int hleft;
-int hright;
+int hleft = 0;
+int hright = 0;
 if (tree == NULL)
 {
 return (0);
